@@ -1,6 +1,9 @@
-# DESIGN SYSTEM V1
+# ATTENTION DECK — DESIGN SYSTEM
 
-Ivory retrofuture: Dieter Rams / Braun / 2001 / NASA / Japanese electronics / experimental editorial web.
+## THESIS
+A personal computer from the future, designed in 1969.
+
+## PALETTE
 
 IVORY #F6F4ED
 ALUMINIUM #D9D6CF
@@ -14,6 +17,65 @@ DUST ROSE #D8B5C5
 OCHRE #C39A31
 SAGE #A7B1A0
 
-Functional skeuomorphism: knobs, sliders, toggles, push buttons, LEDs and segment displays. Use physical cues sparingly. Pixel/CRT details are microdetails only.
+## TYPOGRAPHY
 
-Primary screen is an ATTENTION DECK instrument, not a SaaS dashboard. Use editorial asymmetry, large typography, small technical metadata and generous negative space.
+Functional grotesk for reading.
+Monospace for system labels, timestamps and metadata.
+
+Suggested:
+Geist / Inter
+IBM Plex Mono
+
+## GRID
+
+12 columns on desktop.
+Large negative space.
+Editorial asymmetry.
+Strong lines and dividers.
+Visible system numbering.
+
+## CONTROLS
+
+Physical references:
+- knob;
+- slider;
+- push button;
+- toggle;
+- LED;
+- segment display.
+
+Use skeuomorphism sparingly and functionally.
+
+## CENTRAL PRESENCE
+
+Abstract orb.
+No human avatar.
+
+States:
+IDLE
+LISTENING
+THINKING
+SPEAKING
+ACTING
+ERROR
+
+Motion is restrained and physical.
+
+## COMPOSITION
+
+Large type.
+Small technical labels.
+Frames.
+Dividers.
+Editorial modules.
+Intentional asymmetry.
+
+## NO
+
+Glassmorphism.
+AI sparkle.
+Purple gradients.
+Cyberpunk.
+Over-rounded SaaS cards.
+Decorative particles.
+Emoji-driven UI.

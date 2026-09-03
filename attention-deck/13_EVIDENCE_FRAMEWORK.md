@@ -1,18 +1,47 @@
 # EVIDENCE FRAMEWORK
 
-ATTENTION DECK is evidence-informed, not a clinical product.
+Science is a constraint on product behavior, not marketing decoration.
 
-## Design foundations
-- Organizational and planning strategies can support functioning in adults with ADHD/executive-function difficulties.
-- CBT-informed approaches and problem-solving are relevant behavioral frameworks.
-- Implementation intentions are a useful if-then planning strategy for translating intentions into action.
-- Autonomy and competence matter for durable behavior change; do not substitute coercion for agency.
-- Perfectionism interventions may include reducing initial performance demands and tolerating imperfect output, but no single technique should be represented as universally effective.
+## Appropriate foundations
 
-## Product language
-Prefer: “evidence-informed”, “may help”, “designed to reduce friction”, “strategy used in behavioral/CBT-informed approaches”.
+- organizational and planning strategies;
+- problem-solving;
+- CBT-informed skills;
+- implementation intentions;
+- autonomy and competence;
+- behavioral approaches to perfectionism;
+- environmental/friction reduction.
 
-Avoid: “this treats ADHD”, “you have ADHD”, “your dopamine is broken”, “this rewires your brain”, or unsupported neurobiological certainty.
+## Product stance
 
-## Design principle
-Scientific ideas should constrain product behavior and evaluation, not be decorative marketing copy.
+Say:
+“evidence-informed”
+“may help”
+“strategy used in behavioral approaches”
+
+Do not say:
+“this treats ADHD”
+“you have ADHD”
+“your dopamine is broken”
+“this rewires your brain in X days”
+
+Do not use dopamine as a universal explanation for procrastination or reward-seeking.
+
+## PERSONALIZATION
+
+The product can learn:
+- which friction types recur;
+- which strategies were tried;
+- which outcomes occurred;
+- which strategies appear helpful for this user.
+
+Personalization is observational, not diagnostic.
+
+## REWARD
+
+Prefer competence and continuity feedback:
+“You returned.”
+“You sustained the commitment.”
+“You finished the session.”
+
+Avoid gamification as the main behavioral mechanism.

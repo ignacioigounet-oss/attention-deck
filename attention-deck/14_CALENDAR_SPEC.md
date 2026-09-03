@@ -1,15 +1,55 @@
-# GOOGLE CALENDAR SPEC
+# GOOGLE CALENDAR
 
-Google Calendar is temporal source of truth. ATTENTION DECK is source of truth for projects, commitments, habits, attention, decisions and behavioral learning.
+## SOURCE OF TRUTH
 
-## Capabilities
-Read day/week/calendars/events; find free/busy windows; create, update and delete events.
+Google Calendar = temporal reality.
+ATTENTION DECK = projects, habits, decisions, attention and behavioral learning.
 
-## Calendar Audit
-Calculate occupied hours, protected focus time, primary-project coverage, training/study blocks and recovery margin. Flag missing protected time for the Primary Project.
+## READ
 
-## Focus block metadata
-When ATTENTION DECK creates a focus block, include project and next action in the event description and mark the source as ATTENTION_DECK.
+- today's events
+- week
+- busy/free
+- relevant calendars
 
-## Security
-OAuth tokens stay server-side and encrypted. Use minimal scopes. Never expose client secrets.
+## WRITE
+
+- create event
+- update event
+- delete event
+
+## AUDIT
+
+Calculate:
+occupied hours
+planned hours
+protected focus time
+Primary Project coverage
+training/study blocks
+recovery margin
+
+Detect:
+Primary Project without protected time
+overload
+conflicts
+
+## FOCUS BLOCKS
+
+When ATTENTION DECK creates a focus block:
+Title:
+PROJECT — NEXT ACTION
+
+Description:
+Created by ATTENTION DECK.
+Include project and objective.
+
+## SECURITY
+
+OAuth tokens server-side and encrypted.
+Minimal scopes.
+Never expose client secret.
+
+## CONFIRMATION
+
+Explicit exact scheduling requests can create events after conflict checking.
+Moving/cancelling consequential existing events should use confirmation policy.
