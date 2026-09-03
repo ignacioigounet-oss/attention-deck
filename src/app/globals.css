@@ -1,0 +1,194 @@
+/* Design tokens from docs/11_DESIGN_SYSTEM_V1.md. Phase 2 uses them only as
+   variables and a plain base; the visual system itself is Phase 11. */
+:root {
+  --ivory: #f6f4ed;
+  --aluminium: #d9d6cf;
+  --warm-grey: #b9b7ae;
+  --graphite: #2b2828;
+  --black: #0e0e0c;
+  --orange: #ff5a1f;
+  --amber: #ffb800;
+  --green: #64ff40;
+  --dust-rose: #d8b5c5;
+  --ochre: #c39a31;
+  --sage: #a7b1a0;
+
+  --font-text: "Geist", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--ivory);
+  color: var(--graphite);
+  font-family: var(--font-text);
+  line-height: 1.4;
+}
+
+main {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.75rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+  margin-top: 2rem;
+}
+
+a {
+  color: var(--graphite);
+}
+
+code,
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+}
+
+.meta {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--warm-grey);
+}
+
+header.shell {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--graphite);
+  padding: 1rem 1.5rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+header.shell nav a {
+  margin-right: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9375rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem 0.75rem 0.5rem 0;
+  border-bottom: 1px solid var(--aluminium);
+  vertical-align: top;
+}
+
+th {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--warm-grey);
+  font-weight: 500;
+}
+
+dl.facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 1.5rem;
+  margin: 0;
+}
+
+dl.facts dt {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--warm-grey);
+}
+
+dl.facts dd {
+  margin: 0;
+}
+
+.led {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: var(--aluminium);
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+.led[data-state="active"] {
+  background: var(--green);
+}
+
+.led[data-state="primary"] {
+  background: var(--orange);
+}
+
+.led[data-state="paused"],
+.led[data-state="blocked"] {
+  background: var(--amber);
+}
+
+form.stack {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 22rem;
+}
+
+label {
+  display: grid;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+}
+
+input {
+  font: inherit;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--graphite);
+  background: white;
+  color: var(--graphite);
+}
+
+button {
+  font: inherit;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--graphite);
+  background: var(--graphite);
+  color: var(--ivory);
+  cursor: pointer;
+}
+
+button.quiet {
+  background: transparent;
+  color: var(--graphite);
+}
+
+p.error {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+p.empty {
+  color: var(--warm-grey);
+}
